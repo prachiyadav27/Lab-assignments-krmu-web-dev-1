@@ -1,0 +1,187 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header Section ===== */
+header {
+  background-color: #0056d2;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Hero Section ===== */
+#hero {
+  text-align: center;
+  background-color: #eaf0ff;
+  padding: 30px 10px;
+}
+
+#hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1rem;
+}
+
+/* ===== About Section ===== */
+#about {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+#about p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* ===== Skills Section ===== */
+#skills {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+#skills table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+#skills th, #skills td {
+  border: 1px solid #0056d2;
+  padding: 10px;
+  text-align: center;
+}
+
+#skills th {
+  background-color: #0056d2;
+  color: white;
+}
+
+/* ===== Projects Section ===== */
+#projects {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+#projects ul {
+  list-style: none;
+}
+
+#projects li {
+  background-color: #f4f7ff;
+  border: 1px solid #dce3f9;
+  border-radius: 10px;
+  width: 60%;
+  margin: 10px auto;
+  padding: 15px;
+}
+
+#projects h3 {
+  color: #0056d2;
+  margin-bottom: 8px;
+}
+
+/* ===== Contact Section ===== */
+#contact {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 1px solid #d0d7e2;
+  width: 60%;
+}
+
+form label {
+  font-weight: 500;
+  color: #333;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form input[type="submit"] {
+  background-color: #0056d2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+form input[type="submit"]:hover {
+  background-color: #003f9e;
+}
+
+/* ===== Footer Section ===== */
+footer {
+  text-align: center;
+  background-color: #0056d2;
+  color: white;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
